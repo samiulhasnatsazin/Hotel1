@@ -1,0 +1,35 @@
+
+Create Table ad_log(
+ID Varchar(10),
+Password Varchar(10)
+);
+
+Create Table customer(
+Ref_No Varchar(10),
+Name Varchar(30),
+Age Varchar(10),
+Gender Varchar(10),
+Post_Code Varchar(10),
+Mobile_No Varchar(30),
+Email Varchar(30),
+Nationality Varchar(10),
+ID_Proof_Type Varchar(30),
+ID_Number Varchar(30),
+Address Varchar(30)
+);
+
+Create Table details(
+Floor Varchar(10),
+Room_No Varchar(10),
+Room_Type Varchar(10)
+);
+
+Create Table room(
+Mobile_No Varchar(20),
+Check_In_Date Varchar (20),
+Check_Out_Date Varchar (20),
+Room_Type Varchar(20),
+Room_No Varchar(20),
+Meal Varchar(20),
+Days_Number Varchar(20)
+);
